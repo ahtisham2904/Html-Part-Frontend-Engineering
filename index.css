@@ -5,8 +5,13 @@
 }
 
 body{
-    background-color: #215e8f;
+    height: 100vh;
+    background-image: url("Resources/pexels-zaksheuskaya-709412-1568607.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
+
 
 .parent{
     width: 95%;
@@ -35,6 +40,7 @@ body{
 }
 .task:hover{
     transform: scale(1.1);
+    filter: brightness(150%);
 }
 a{
     color: white;

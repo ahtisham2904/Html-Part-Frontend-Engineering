@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background-image: url("Resources/pexels-zaksheuskaya-709412-1568607.jpg");
+    background-image: url("Resources/Body-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -34,7 +34,7 @@ body{
     align-items: center;
     color: white;
     transition: all 1s ease;
-    background-image: url("Resources/Futuristic\ horizon\ background\ _\ Free\ Vector.jpeg");
+    background-image: url("Resources/Box-background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }

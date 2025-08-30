@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #215e8f;
+}
+
+.parent{
+    width: 95%;
+    height: 95vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.task{
+    font-size: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 1s ease;
+    background-image: url("Resources/Futuristic\ horizon\ background\ _\ Free\ Vector.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.task:hover{
+    transform: scale(1.1);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
